@@ -1,0 +1,8 @@
+spring.application.name=todoApp
+server.port=8080
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:[the-dbms]://localhost:[the-port]/the-db
+spring.datasource.username=the-user
+spring.datasource.password=the-pass
+spring.datasource.driver-class-name=the.class.driver
+spring.jpa.show-sql=true
