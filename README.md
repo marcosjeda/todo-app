@@ -23,7 +23,8 @@ mvn spring-boot:run
 
 ## Uso
 La aplicación estará disponible en `http://localhost:8080`
-o el puerto seleccionado en `src/main/resources/application.properties`
+
+...o el puerto seleccionado en `src/main/resources/application.properties`
 
 ## Tecnologías
 - Spring Boot

@@ -1,1 +1,11 @@
 services:
+    db-todo:
+        image: mysql:8.0
+        container_name: db-todo
+        environment:
+            MYSQL_ROOT_PASSWORD: examplepassword
+            MYSQL_DATABASE: todo_app
+            MYSQL_USER: todo_user
+            MYSQL_PASSWORD: todopassword
+        ports:
+            - "3306:3306"
