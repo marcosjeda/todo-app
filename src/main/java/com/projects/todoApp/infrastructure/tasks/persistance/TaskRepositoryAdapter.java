@@ -23,7 +23,7 @@ public class TaskRepositoryAdapter implements TaskRepositoryPort {
 
     @Override
     public Task createTask(Task task) {
-        TaskEntity taskEntity = new TaskEntity(task.title(), task.description(), task.status().name(), task.userId());
+        TaskEntity taskEntity = new TaskEntity(task.title(), task.description(), task.status().name());
         TaskEntity savedTaskEntity = taskRepository.save(taskEntity);
         return new Task(savedTaskEntity.getId(), savedTaskEntity.getTitle(), savedTaskEntity.getDescription(), savedTaskEntity.getStatus(), EnumTaskStatus.valueOf(savedTaskEntity.getStatus()));
     }
