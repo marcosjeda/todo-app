@@ -2,7 +2,6 @@ package com.projects.todoApp.infrastructure.tasks.persistance;
 
 import java.util.Objects;
 
-import com.projects.todoApp.domain.tasks.models.EnumTaskStatus;
 import com.projects.todoApp.infrastructure.users.persistance.UserEntity;
 
 import jakarta.persistence.Column;
