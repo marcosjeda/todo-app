@@ -28,7 +28,7 @@
 	</scm>
 	<properties>
 		<java.version>17</java.version>
-		<start-class>com.projects.todoApp.TodoAppApplication</start-class>
+		<start-class>com.projects.todoapp.TodoAppApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
